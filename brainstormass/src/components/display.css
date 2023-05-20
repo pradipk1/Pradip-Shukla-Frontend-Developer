@@ -1,0 +1,16 @@
+.display-container{
+    margin: 10px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+}
+.card-container{
+    /* text-align: center; */
+    width: 300px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.span-tag{
+    font-weight: lighter;
+}
